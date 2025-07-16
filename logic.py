@@ -38,4 +38,8 @@ second_number = input("enter second  number: ")
 exp = float(first_number) ** float(second_number)
 print(f" {first_number} ** {second_number} = {exp:.2f}\n\n")
 
-
+print("floor divistion")
+first_number = input("enter first number: ")
+second_number = input("enter second  number: ")
+floor = float(first_number) //  float(second_number)
+print(f" {first_number} // {second_number} = {floor:.2f}\n\n")
